@@ -30,6 +30,9 @@ public class main {
 ////        승객 수 초과
 ////        bus1.ridePassenger(45);
 //
+//          속도 변경
+//        taxi1.changeSpeed(3);
+
 ////        승객 +5
 //        bus1.setPassenger(0);
 //        bus1.ridePassenger(5);
@@ -40,7 +43,7 @@ public class main {
 ////        bus1.FuelStateShow();
 
 //        승객 수, 목적지, 목적지 까지 거리
-        taxi1.orderToTaxi(5, "구로디지털단지역", 12);
+//        taxi1.orderToTaxi(5, "구로디지털단지역", 12);
 
 
     }
