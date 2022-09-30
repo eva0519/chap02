@@ -13,7 +13,7 @@ public class Taxi extends PublicTransport {
     }
 
     public void showTaxi() {
-        System.out.println("번호 = " + super.getNumber() + "\n" + "주유량 = " + super.getFuelVolume() + "상태 = " + super.getDriveState());
+        System.out.println("번호 = " + getNumber() + "\n" + "주유량 = " + getFuelVolume() + "\n" + "상태 = " + getDriveState());
     }
 
     public void showTaxiDetail() {
@@ -25,7 +25,8 @@ public class Taxi extends PublicTransport {
                 "목적지까지 거리=" + goalDistance + "km" + "\n" +
                 "기본 거리=" + basicDistance + "\n" +
                 "거리당 요금=" + payToDistance + "\n" +
-                "지불할 요금=" + getCurrentPay() + "\n";
+                "지불할 요금=" + getCurrentPay() + "\n" +
+                "상태=" + getDriveState() + "\n";
 
         System.out.println(temp);
     }
@@ -35,8 +36,7 @@ public class Taxi extends PublicTransport {
         this.goal = goal;
         this.goalDistance = goalDistance;
         super.setCurrentPay(getBasicCharge() * getGoalDistance());
-        driveStart();
-
+        setDriveState("운행중");
 
         System.out.println("승객 수, 목적지, 목적지 까지의 거리 입력이 완료되었습니다");
     }

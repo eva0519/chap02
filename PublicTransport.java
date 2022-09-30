@@ -37,6 +37,7 @@ public class PublicTransport {
 
     public void driveStart() {
         System.out.println("운행을 시작합니다");
+        changeState(1);
     }
 
     public void changeSpeed(int speed) {

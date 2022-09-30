@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dbe4700-553f-4ff1-9ec2-6dab3ada4167" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/주유필요.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최대_승객_수_초과.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3dbe4700-553f-4ff1-9ec2-6dab3ada4167" name="변경" comment="fdfs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chap02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Taxi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chap02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chap02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/chap02/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chap02/main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,8 +67,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664505121280</updated>
-      <workItem from="1664505122416" duration="22503000" />
+      <workItem from="1664505122416" duration="24370000" />
     </task>
+    <task id="LOCAL-00001" summary="fdfs">
+      <created>1664528351012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664528351012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fdfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fdfs" />
   </component>
 </project>

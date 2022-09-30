@@ -2,9 +2,9 @@ public class main {
 
     public static void main(String[] args) throws 최대_승객_수_초과 {
 
-        Bus bus1 = new Bus();
+//        Bus bus1 = new Bus();
         Taxi taxi1 = new Taxi();
-        Taxi taxi2 = new Taxi();
+//        Taxi taxi2 = new Taxi();
 
 //        System.out.println(bus1.toString());
 ////        taxi1, taxi2 고유 아이디 다른점 확인
@@ -39,7 +39,7 @@ public class main {
 //        System.out.println("현재 주유량 : " + bus1.usingFuel(55));
 ////        bus1.FuelStateShow();
 
-        taxi1.orderTaxi(2, "서울역", 2);
+        taxi1.orderToTaxi(5, "서울역", 2);
         taxi1.showTaxi();
         taxi1.showTaxiDetail();
 
