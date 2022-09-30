@@ -1,3 +1,4 @@
+import java.util.Objects;
 import java.util.UUID;
 
 public class PublicTransport {
@@ -36,8 +37,14 @@ public class PublicTransport {
     }
 
     public void driveStart() {
-        System.out.println("운행을 시작합니다");
-        changeState(1);
+        if (fuelVolume >= 10) {
+            System.out.println("운행을 시작합니다");
+            changeState(1);
+        }
+        else {
+            System.out.println("주유량이 10이상이어야만 출발할 수 있습니다");
+            changeState(-1);
+        }
     }
 
     public void changeSpeed(int speed) {
@@ -72,18 +79,26 @@ public class PublicTransport {
     }
 
     public void ridePassenger(int persons) throws 최대_승객_수_초과 {
-        try {
-            if ((passenger + persons) > maxPassenger) {
-                throw new 최대_승객_수_초과();
-            } else if ((passenger + persons) <= maxPassenger) {
-                passenger += persons;
-                remainPassenger = maxPassenger - passenger;
-            } else if ((passenger +persons <= 0)) {
-                passenger = 0;
-                remainPassenger = maxPassenger;
+
+        if (Objects.equals(driveState, "일반")) {
+            try {
+                if ((passenger + persons) > maxPassenger) {
+                    throw new 최대_승객_수_초과();
+                } else if ((passenger + persons) <= maxPassenger) {
+                    passenger += persons;
+                    remainPassenger = maxPassenger - passenger;
+                } else if ((passenger +persons <= 0)) {
+                    passenger = 0;
+                    remainPassenger = maxPassenger;
+                }
+
+                changeState(1);
+
+            } catch (최대_승객_수_초과 e) {
+                System.out.println(e.getMessage());
             }
-        } catch (최대_승객_수_초과 e) {
-            System.out.println(e.getMessage());
+        } else {
+            changeState(-1);
         }
     }
 
@@ -126,6 +141,10 @@ public class PublicTransport {
                     ;
 
         System.out.println(temp);
+    }
+
+    public void doPayment() {
+        System.out.println("최종 요금 : " + currentPay + "원");
     }
 
     public int getCurrentPay() {
