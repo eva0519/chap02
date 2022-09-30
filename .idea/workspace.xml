@@ -6,6 +6,8 @@
       <change beforePath="$PROJECT_DIR$/PublicTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicTransport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Taxi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Taxi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chap02/PublicTransport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chap02/PublicTransport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chap02/Taxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chap02/Taxi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/chap02/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chap02/main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664505121280</updated>
-      <workItem from="1664505122416" duration="24370000" />
+      <workItem from="1664505122416" duration="26095000" />
     </task>
     <task id="LOCAL-00001" summary="fdfs">
       <created>1664528351012</created>
@@ -76,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664528351012</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fdfs">
+      <created>1664530245850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664530245850</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fdfs">
+      <created>1664530255948</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664530255948</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

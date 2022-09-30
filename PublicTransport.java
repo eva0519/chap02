@@ -54,14 +54,17 @@ public class PublicTransport {
         }
     }
 
-    public void changeState(int State) {
-        switch (State) {
+    public void changeState(int state) {
+        switch (state) {
             case -1:
                 driveState = "운행불가";
+                break;
             case 0:
                 driveState = "일반";
+                break;
             case 1:
                 driveState = "운행중";
+                break;
             case 2:
                 driveState = "차고지행";
         }

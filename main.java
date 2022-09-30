@@ -39,9 +39,9 @@ public class main {
 //        System.out.println("현재 주유량 : " + bus1.usingFuel(55));
 ////        bus1.FuelStateShow();
 
-        taxi1.orderToTaxi(5, "서울역", 2);
-        taxi1.showTaxi();
-        taxi1.showTaxiDetail();
+//        승객 수, 목적지, 목적지 까지 거리
+        taxi1.orderToTaxi(5, "구로디지털단지역", 12);
+
 
     }
 }

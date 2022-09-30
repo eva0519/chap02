@@ -32,15 +32,14 @@ public class Taxi extends PublicTransport {
     }
     
     public void orderToTaxi(int passenger, String goal, int goalDistance) throws 최대_승객_수_초과 {
-        super.ridePassenger(passenger);
+        ridePassenger(passenger);
         this.goal = goal;
         this.goalDistance = goalDistance;
-        super.setCurrentPay(getBasicCharge() * getGoalDistance());
-        setDriveState("운행중");
+        super.setCurrentPay(super.getBasicCharge() + (payToDistance * (goalDistance - 1)));
+        changeState(1);
 
         System.out.println("승객 수, 목적지, 목적지 까지의 거리 입력이 완료되었습니다");
     }
-
 
     public void AddPayPerDistance(int distance) {
         super.setCurrentPay(getBasicCharge() * distance);
